@@ -1,0 +1,51 @@
+body{
+    background: #ddd;
+}
+
+.row{
+    padding: 0 20px;
+    display: table;
+    width: 100%;
+}
+
+form{
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px #999;
+    padding: 50px;
+    background: #fff;
+}
+
+input, textarea{
+    width: 100%; 
+    padding: 10px;
+    margin-bottom: 1em;
+    font: 1em sans-serif;
+    border: 1px solid #999;
+}
+
+label{
+    font-weight: bold;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+button{
+    background-color: white;
+    border: 1px solid rgb(21,4,98);
+    color: rgb(21,4,98);
+    padding: 15px;
+    border-radius: 3px; 
+}
+
+button:hover{
+    background-color: rgb(21,4,98);
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px){
+    button{
+        width: 100%;
+    }
+}
